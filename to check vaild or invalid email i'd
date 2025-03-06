@@ -1,0 +1,22 @@
+
+package practice_java;
+import java.util.*;
+
+public class main {
+	public static void main(String [] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter string: ");
+		String email=s.nextLine();
+		if(email.contains("com") || email.contains("in") || email.contains("net") || email.contains("org")) {
+			System.out.println("valid email");
+			
+		}
+		else {
+			System.out.println("invalid email");
+		}
+		
+		
+			
+	}
+
+}
